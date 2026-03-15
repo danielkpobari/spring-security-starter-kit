@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: sample-application
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+security:
+  jwt:
+    secret: ${JWT_SECRET:MySecureJwtSecretKeyForProductionUse123456789012345678901234567890}
+    expiration: ${JWT_EXPIRATION:86400000}
+    header: Authorization
+    prefix: "Bearer "
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com.fcmb: DEBUG
+    org.springframework.security: DEBUG
