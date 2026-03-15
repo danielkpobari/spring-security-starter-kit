@@ -8,7 +8,7 @@
 		<version>3.2.0</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.fcmb</groupId>
+	<groupId>com.conclase</groupId>
 	<artifactId>security-system</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>

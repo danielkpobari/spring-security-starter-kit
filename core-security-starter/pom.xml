@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.fcmb</groupId>
+        <groupId>com.conclase</groupId>
         <artifactId>security-system</artifactId>
         <version>1.0.0</version>
     </parent>

@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.fcmb</groupId>
+        <groupId>com.conclase</groupId>
         <artifactId>security-system</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -15,10 +15,15 @@
     <packaging>jar</packaging>
 
     <dependencies>
+
         <dependency>
-            <groupId>com.fcmb</groupId>
+            <groupId>com.conclase</groupId>
             <artifactId>core-security-starter</artifactId>
             <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
